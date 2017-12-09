@@ -1,6 +1,6 @@
 {
   "name": "ft-block-coin",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "y",
   "description": "An electron-vue project",
   "license": null,
@@ -23,7 +23,7 @@
   },
   "build": {
     "productName": "ft-block-coin",
-    "appId": "org.simulatedgreg.electron-vue",
+    "appId": "com.futu.blockcoin",
     "directories": {
       "output": "build"
     },
@@ -56,8 +56,10 @@
     }
   },
   "dependencies": {
-    "vue": "^2.3.3",
     "axios": "^0.16.1",
+    "element-ui": "^2.0.7",
+    "vue": "^2.3.3",
+    "vue-carbon": "^0.5.2",
     "vue-electron": "^1.0.6",
     "vue-router": "^2.5.3",
     "vuex": "^2.3.1"
